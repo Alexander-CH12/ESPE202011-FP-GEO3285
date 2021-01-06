@@ -25,13 +25,35 @@ public class BasicOperations {
         
         int minuend;
         int subtrahend;
-        int difference;
+        int diference;
+        int multiplier;
+        int multiplying;
+        int product;
+        int dividing;
+        int divider; 
+        int quotient;
+        int dividingg;
+        int dividierr; 
+        int module;
+        
         
         minuend = -23;
-        subtrahend = -6;
+        subtrahend = -6; 
         
-        //-23 - (-6) = -23 + 6 = -17
+        multiplier = 9;
+        multiplying = 15;
+        
+        dividing = 40;
+        divider = 5;
+        
+        dividingg = 10;
+        dividierr = 5;
+        
+        //-23 - (-6)= -23 + 6 = -17
+        //9*15=135
+        //40/5=8
         //initilization
+        
         addend1 = 5;
         addend2 = 18;
         
@@ -51,8 +73,13 @@ public class BasicOperations {
         
         System.out.println("adding one to sum " + ((++sum)));
         
-        System.out.println("the subtraction of " + minuend + " - " + subtrahend + 
-                " is equal to " + (minuend - subtrahend));
+        System.out.println("The subtraction of " + minuend + " - " + subtrahend +  " is equal to " + (minuend - subtrahend));
+        
+        System.out.println("The multiplicacion of  " + multiplying + " * " + multiplier + " is equal to --> " + (multiplying * multiplier));
+        
+        System.err.println("The division of  " + dividing + " / " + divider+ " is equal to --> " + (dividing / divider));
+        
+        System.err.println("The module of  " + dividingg+ " % " + dividierr+ " is equal to --> " + (dividingg % dividierr));   
     }
     
 }
