@@ -1,0 +1,12 @@
+// Marco Chicaisa Hello World
+
+/*
+some line of coments 
+can be writen in this way
+thanks
+*/
+class ByeWorld{
+    public static void main(String [] args)´{
+	    System.out.println("Bye World from Marco Chicaisa");
+	}
+}
