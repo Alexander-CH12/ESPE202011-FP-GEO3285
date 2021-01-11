@@ -16,27 +16,28 @@ public class LogicalOperators {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int x = 15;
-        if (x != 15) {
-            System.out.println("x is equals to 15");
+        System.out.println("TRUTH TABLE odd numbers -> && even -> ||");
+        int x = 12;
+        if (x != 12) {
+            System.out.println("x is equals to 12");
         } else {
-            System.out.println("x is NOT equal to 15");
+            System.out.println("x is NOT equal to 12");
         }
 
-        boolean y = x != 10;
-        System.out.println("x != 15 --> " + (y));
-        System.out.println("x == 15 --> " + (x == 15));
-        System.out.println("x = 8 -->   " + (x = 8));
-        System.out.println("x > 8 -->  " + (x > 8));
-        System.out.println("x >= 8 --> " + (x >= 8));
+        boolean y = x != 12;
+        System.out.println("x != 12 --> " + (y));
+        System.out.println("x == 12 --> " + (x == 12));
+        System.out.println("x = 7 -->   " + (x = 7));
+        System.out.println("x > 7 -->  " + (x > 7));
+        System.out.println("x >= 7 --> " + (x >= 7));
 
         boolean comparison = false;
         boolean comparison2 = false;
         boolean comparison3 = false;
-        comparison = x != 15;
+        comparison = x != 12;
         System.out.println("comparison -> " + comparison);
 
-        comparison2 = x >= 8;
+        comparison2 = x >= 7;
         System.out.println(" logical AND (&&)");
         comparison3 = comparison && comparison2;
         System.out.println("comparison1 ^ comparison2 --> " + (comparison3));
@@ -63,25 +64,24 @@ public class LogicalOperators {
         System.out.println("not comparison --> " + !comparison);
 
         System.out.println("Marco Chicaisa AND TRUTH TABLE odd numbers -> &&  even numbers ->||");
-        System.out.println("=================================================");
         boolean p;
         boolean q;
 
         p = true;
         q = true;
-        System.out.println(" ( " + p + " ^ " + q + " ) " + (p && q));
-        
+        System.out.println(" ( " + p + " v " + q + " ) " + (p || q));
+
         p = true;
         q = false;
-        System.out.println(" ( " + p + " ^ " + q + " ) " + (p && q));
+        System.out.println(" ( " + p + " v " + q + " ) " + (p || q));
         
         p = false;
         q = true;
-        System.out.println(" ( " + p + " ^ " + q + " ) " + (p && q));
+        System.out.println(" ( " + p + " v " + q + " ) " + (p || q));
         
         p = false;
         q = false;
-        System.out.println(" ( " + p + " ^ " + q + " ) " + (p && q));
+        System.out.println(" ( " + p + " v " + q + " ) " + (p || q));
     }
     
 }
