@@ -21,7 +21,7 @@ public class WS07Menus {
         Scanner input = new Scanner(System.in);
         boolean mainLoop = true;
         int option;
-       
+
         do {
             System.out.println(" ========= Calculator =======");
             System.out.println("1. -> Addition");
@@ -34,7 +34,7 @@ public class WS07Menus {
             option = input.nextInt();
 
             switch (option) {
-                
+
                 case 1:
                     int addend1;
                     int addend2;
@@ -56,7 +56,7 @@ public class WS07Menus {
                     System.out.println("The division is");
                     break;
                 case 5:
-                    System.out.println("Good Bye my friend");
+                    System.out.println("Bye Bye");
                     System.exit(0);
                     break;
                 default:
