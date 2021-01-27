@@ -53,8 +53,8 @@ public class HW04Menus {
                     System.out.println("enter base -> ");
                     base = input.nextInt();
                     System.out.println("enter height -> ");
-                    height = input.nextInt();
-                    area4= base + height;
+                    heigth = input.nextInt();
+                    area4= base + heigth;
                     System.out.println(" the sum is --> " + area4 );
                     break;
                 case 3:
