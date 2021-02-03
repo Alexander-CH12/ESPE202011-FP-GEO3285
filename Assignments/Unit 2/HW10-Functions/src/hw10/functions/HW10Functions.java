@@ -80,10 +80,10 @@ public class HW10Functions {
         System.out.println("Enter the number of table-->");
         table = input.nextInt();
         
-        for (int j = 1; j <= top; j++) {
-            product = table * j;
+        for (int a = 1; a <= top; a++) {
+            product = table * a;
             
-            System.out.println(+table + " * " + j + " = " + product);
+            System.out.println(+ table + " * " + a + " = " + product);
         }
         System.out.println("=================================================");
         System.out.println("=               See you soon user               =");
@@ -128,9 +128,9 @@ public class HW10Functions {
         int product = 0;
         int table = 0;
 
-        for (int j = 1; j <= top; j++) {
-            product = table * j;
-            System.out.println(+table + " * " + j + " = " + product);
+        for (int a = 1; a <= top; a++) {
+            product = table * a;
+            System.out.println(+ table + " * " + a + " = " + product);
 
         }
         return +product;
