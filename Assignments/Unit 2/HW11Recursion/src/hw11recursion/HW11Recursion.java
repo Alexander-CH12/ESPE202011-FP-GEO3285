@@ -83,15 +83,11 @@ public class HW11Recursion {
                         switch (optionChurches) {
 
                             case 1:
-
                                 TheBasilica(name, input);
-
                                 break;
-
                             case 2:
                                 ChurchOfSantoDomingo(name, input);
                                 break;
-
                             case 3:
                                 ChurchOfElSagrario(name, input);
                                 break;
